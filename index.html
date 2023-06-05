@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=-, initial-scale=1.0">
     <title>BPaper, Scissors, Rock</title>
-    <script src='script.js'></script>
+    
     <link rel="stylesheet" href="psr.css">
 </head>
 <body>
@@ -13,9 +13,17 @@
     <p>Can you beat the computer?</p>
     <div class="inputField">
         <label for="inputField">Choose your weapon: </label>
-        <input type="text" class="playerInput">
+        <input type="text" id="playerInput">
+        <button type="submit" class="submitButton" onclick="playGame()">Submit</button>
     </div>
 
+    <div>
+        <p id="displayComputerChoice">???</p>
+    </div>
+    <div>
+        <p id="playGameResult">???</p>
+    </div>
 
+    <script src='script.js'></script>
 </body>
 </html>
