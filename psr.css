@@ -1,7 +1,23 @@
-.playerinput {
+#playerinput {
+    font-size: xx-large;
+}
+
+input {
     font-size: xx-large;
 }
 
 label {
+    font-size: xx-large;
+}
+
+button {
+    font-size: x-large;
+}
+
+#playGameResult {
+    font-size: xx-large;
+}
+
+#displayComputerChoice {
     font-size: xx-large;
 }
