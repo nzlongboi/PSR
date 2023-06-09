@@ -6,6 +6,23 @@ input {
     font-size: xx-large;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(178, 211, 255);
+}
+
+p {
+    font-size: xx-large;
+}
+
+.inputfield {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 label {
     font-size: xx-large;
 }
@@ -20,4 +37,15 @@ button {
 
 #displayComputerChoice {
     font-size: xx-large;
+}
+
+.bottomResults {
+    display: flex;
+    align-items: center;
+    
+}
+
+.bottom {
+    display: flex;
+    gap: 200px;
 }

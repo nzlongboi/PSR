@@ -14,15 +14,20 @@
     <div class="inputField">
         <label for="inputField">Choose your weapon: </label>
         <input type="text" id="playerInput">
-        <button type="submit" class="submitButton" onclick="playGame()">Submit</button>
+        <button class="submitButton">Submit</button>
+        <button class="resetButton">Reset</button>
     </div>
-
-    <div>
-        <p id="displayComputerChoice">???</p>
+    <div class="bottom">
+        <div class="bottomResults">
+            <label for='p1'></label>
+            <p1 id="displayComputerChoice">???</p1>
+        </div>
+        <div>
+            <p id="playGameResult"> ???</p>
+        </div>
     </div>
-    <div>
-        <p id="playGameResult">???</p>
-    </div>
+    <p id="tally">???</p>
+    <p id="roundCount">Round: 0</p>
 
     <script src='script.js'></script>
 </body>
